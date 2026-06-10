@@ -17,6 +17,22 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        ret {
+            bindings = <&kp RET>;
+            key-positions = <15 16>;
+            layers = <0 2 4>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <15 14>;
+            layers = <0 4 2>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
