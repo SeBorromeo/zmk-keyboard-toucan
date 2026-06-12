@@ -22,10 +22,10 @@ manifest:
       remote: urob
       path: modules/zmk/adaptive-key
       revision: 18cc2795a64ccb394d1a7b7d591a5bfe3f25924b # main (4/19/2026)
-    - name: zmk-auto-layer
-      remote: urob
-      path: modules/zmk/auto-layer
-      revision: dfa7c695ffde41ef8064245453595d50e198ae1d # main (4/19/2026)
+    # - name: zmk-auto-layer
+    #   remote: urob
+    #   path: modules/zmk/auto-layer
+    #   revision: dfa7c695ffde41ef8064245453595d50e198ae1d # main (4/19/2026)
     - name: zmk-helpers
       remote: urob
       path: modules/zmk/helpers
